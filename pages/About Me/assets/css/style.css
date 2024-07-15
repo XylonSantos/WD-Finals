@@ -1,0 +1,254 @@
+/* Reset and General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Changed to a lighter background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li.active a {
+    background-color: darkslategrey;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: darkslategrey;
+    color: white;
+}
+
+/* Resume Section Styles */
+.resume-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.resume-section h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    animation: slideInDown 1s ease forwards;
+}
+
+.resume-section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease forwards;
+}
+
+.profile-image {
+    text-align: center;
+    margin-bottom: 30px;
+    animation: zoomIn 1s ease forwards;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-content {
+    margin-top: 30px;
+}
+
+.resume-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+    animation: slideInLeft 1s ease forwards;
+}
+
+.resume-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    animation: slideInRight 1s ease forwards;
+}
+
+.resume-content ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.experience-item,
+.education-item {
+    margin-bottom: 30px;
+    animation: slideInUp 1s ease forwards;
+}
+
+.experience-item h3,
+.education-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.experience-item p,
+.education-item p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    nav ul li {
+        margin-right: 15px;
+    }
+
+    .resume-section {
+        padding: 20px;
+    }
+
+    .resume-section h1 {
+        font-size: 2em;
+        animation: slideInDown 1s ease forwards;
+    }
+
+    .resume-section p {
+        font-size: 1.1em;
+        animation: fadeIn 1s ease forwards;
+    }
+
+    .profile-image img {
+        max-width: 150px;
+        animation: zoomIn 1s ease forwards;
+    }
+
+    .experience-item h3,
+    .education-item h3 {
+        font-size: 1.6em;
+    }
+
+    .experience-item p,
+    .education-item p {
+        font-size: 1em;
+    }
+}
+
+/* Keyframes for Animations */
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
