@@ -1,9 +1,8 @@
-/* Reset and General Styles */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; /* Changed to a lighter background */
+    background-color: #f8f8f8;
     color: #333;
     line-height: 1.6;
 }
