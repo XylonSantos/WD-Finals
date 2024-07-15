@@ -49,7 +49,7 @@ header {
 }
 
 body {
-    background-image: url('../img/bg.jpg');
+    background-image: url('/pages/Contact/assets/img/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
