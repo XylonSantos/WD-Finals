@@ -97,7 +97,7 @@ nav ul li a:hover {
 
 .hero p {
     font-size: 1.5em;
-    animation: fadeInUp 2s ease-out forwards 1s; /* Delay for staggered effect */
+    animation: fadeInUp 2s ease-out forwards 1s;
 }
 
 @keyframes fadeInUp {
