@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="/assets/img/Logo.jpg" alt="Lone Studio" width="300" height="250">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  The Final Project in Web Design. By Xylon Santos - TW04
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=XylonSantos/WD-Finals)
 
 ---
 
@@ -59,24 +59,24 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+The project is a personal website designed and developed as a Final Project for Web Design by Xylon Nicholas N. Santos from TW04. The website showcases my skills, experience, and various projects through multiple pages. The purpose of this project is to create an online portfolio that highlights the developer's capabilities in web design and development. It aims to present a professional image, showcase completed projects, and provide an overview of the developer's skills and experiences to potential employers, clients, or collaborators. The Key Components: Contains navigation links to different sections of the website, such as HOME, ABOUT ME, PROJECTS, OVERVIEW, GALLERY, and CONTACT. Features a background video and a welcome message, creating an engaging introduction to the website. Provides detailed information about skills, experience, and education.  Displays past projects with titles, repository links, and descriptions. Gives an overview of the website's purpose and content. Features a hero gallery showcasing various characters and elements. Includes contact information and links to social media profiles. The structure of the website is built using HTML. It defines the layout and content of each page, including sections, navigation, and media elements. CSS is used to style the website, providing visual enhancements and ensuring a responsive design. Key styles include flexbox for layout, animations for interactive elements, and transitions for smooth user experiences. Images, videos, and icons are used throughout the website to enhance the visual appeal and provide relevant content.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Header
+- Hero Section
+- About Me Section
+- Projects section
+- Overview Section
+- Gallery Section
+- Contact Secton
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -117,4 +117,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| HTML Tutorial | HTML Tutorial of the basics | https://www.w3schools.com/html/ |
+| CSS Tutorial | CSS Tutorial of the basics | https://www.w3schools.com/css/ |
